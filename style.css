@@ -1,0 +1,66 @@
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    margin: 0;
+}
+ul{
+    margin: auto;
+    padding-left: 0; 
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.container{
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 100%;
+}
+.logocat{
+    fill:rgba(240, 127, 46, 1);
+    width: 24px;
+    height: 24px;
+}
+.headtext{
+font-family: Montserrat;
+font-weight: 700px;
+font-size: 24px;
+line-height: 40px;
+color: rgba(240, 127, 46, 1);
+
+}
+.listImg{
+display: grid;
+gap: 12px;
+}
+.itemImg{
+    position: relative;
+}
+.listText{
+    position: absolute;
+    width: 288px;
+    height: 85px;
+    top:50%;
+    border-radius: 0px 0px 16px 16px;
+    background-color: rgba(47, 47, 55, 0.5);
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color:rgba(255, 255, 255, 1);
+}
