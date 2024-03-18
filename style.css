@@ -14,14 +14,14 @@ ul{
 li{
     list-style: none;
 }
-img{
+/* img{
     display: block;
     max-width: 100%;
     height: auto;
     width: 100%;
-}
+} */
 .container{
-    max-width: 320px;
+    /* max-width: 320px; */
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto; 
@@ -34,7 +34,6 @@ img{
     height: 24px;
 }
 .headtext{
-font-family: Montserrat;
 font-weight: 700px;
 font-size: 24px;
 line-height: 40px;
@@ -55,6 +54,7 @@ gap: 12px;
     top:50%;
     border-radius: 0px 0px 16px 16px;
     background-color: rgba(47, 47, 55, 0.5);
+    padding: 12px 20px 12px 20px;
 
     font-family: Montserrat;
     font-size: 16px;
@@ -63,4 +63,35 @@ gap: 12px;
     letter-spacing: 0.5px;
     text-align: left;
     color:rgba(255, 255, 255, 1);
+}
+.sec2{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.itemImgSec2{
+
+}
+.listImgSec2{
+    display: grid;
+    gap: 48px;
+}
+.headSec2{
+    margin-top: 20px;
+    margin-bottom: 12px;
+    width: 288px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: rgba(44, 44, 44, 1);
+}
+.textSec2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 288px;
+
 }
