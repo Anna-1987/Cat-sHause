@@ -29,6 +29,13 @@ li{
     margin-right: auto;
     width: 100%;
 }
+.head{
+    display: inline-flex;
+    align-items: center;
+    text-align: left;
+    gap:10px;
+    height: 56px;
+}
 .logocat{
     fill:rgba(240, 127, 46, 1);
     width: 24px;
@@ -159,5 +166,33 @@ padding: 12px;
     padding-top: 96px;
     padding-bottom: 96px;
 }
+.text-sec4{
+font-size: 28px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.5px;
+text-align: left;
+margin-bottom: 24px;
 
+}
+.video-block{
+    position: relative;
+}
+.video{
+    width: 44px;
+    height: 44px;
+    fill: #fff; 
+    position: absolute;
+    margin-top: 184px;
+    margin-left: 122px;
+}
 
+.footer{
+    display: inline-flex;
+    align-items: center;
+    text-align: left;
+    gap:10px;
+    height: 56px;
+    background-color: rgba(236, 246, 255, 1);
+    
+}
